@@ -115,7 +115,26 @@ width: 250px;
 margin-top: 20px;
 margin-left: 27px;
 }
-
+.opleidingsoverzicht
+{
+width: 50%;
+}
+.rooster
+{
+  width: 60%;
+}
+.vakanties
+{
+  width: 60%;
+}
+.leraren
+{
+  width: 60%;
+}
+.vakken
+{
+  width: 60%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
