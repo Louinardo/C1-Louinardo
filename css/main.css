@@ -102,6 +102,11 @@ body
 {
   background-color: #fcecff;
 }
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 h1
 {
   margin-left: 20px;
@@ -111,7 +116,7 @@ h1
 }
 .loui
 {
-width: 250px;
+width: 40%;
 margin-top: 20px;
 margin-left: 27px;
 }
