@@ -104,41 +104,85 @@ body
 }
 .container
 {
+  max-width: 1700px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1f 1fr 1fr 1fr;
 }
 h1
 {
-  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+h2
+{
+  display: flex;
+  justify-content: center;
 }
 .leerling
 {
+  grid-row: span 2;
+  grid-column: span 1;
+  margin-right: 100px;
+}
+.mening
+{
+  grid-row: span 4;
+  grid-column: span 1;
+  margin-right: 100px;
+  margin-left: 25px;
+}
+.blokken
+{
+  grid-row: span 2;
+  grid-column: span 1;
+  margin-right: 100px;
+}
+.leraren
+{
+  grid-row: span 4;
+  grid-column: span 1;
+  margin-right: 100px;
+}
+.rooster
+{
+  grid-row: span 3;
+  grid-column: span 1;
+  margin-right: 100px;
+}
+.vakken
+{
+  grid-row: span 3;
+  grid-column: span 1;
+  margin-right: 100px;
+  margin-bottom: 25px;
 }
 .loui
 {
-width: 40%;
+width: 500px;
 margin-top: 20px;
 margin-left: 27px;
 }
 .opleidingsoverzicht
 {
-width: 50%;
+width: 450px;
 }
 .rooster
 {
-  width: 60%;
+  width: 500px;
 }
 .vakanties
 {
-  width: 60%;
+  width: 500px;
 }
 .leraren
 {
-  width: 60%;
+  width: 500px;
 }
 .vakken
 {
-  width: 60%;
+  width: 500px;
 }
 /* ==========================================================================
    Helper classes
