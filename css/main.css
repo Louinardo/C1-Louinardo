@@ -104,7 +104,7 @@ body
 }
 .container
 {
-  max-width: 1700px;
+  max-width: 1850px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -124,38 +124,105 @@ h2
 {
   grid-row: span 2;
   grid-column: span 1;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 .mening
 {
   grid-row: span 4;
   grid-column: span 1;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-left: 25px;
 }
 .blokken
 {
   grid-row: span 2;
   grid-column: span 1;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 .leraren
 {
   grid-row: span 4;
   grid-column: span 1;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 .rooster
 {
   grid-row: span 3;
   grid-column: span 1;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 .vakken
 {
   grid-row: span 3;
   grid-column: span 1;
-  margin-right: 100px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+.loui
+{
+width: 500px;
+margin-top: 20px;
+margin-left: 27px;
+}
+.opleidingsoverzicht
+{
+width: 360px;
+}
+.rooster
+{
+  width: 410px;
+}
+.vakanties
+{
+  width: 410px;
+}
+.leraren
+{
+  width: 410px;
+}
+.vakken
+{
+  width: 410px;
+}
+@media (max-width: 1200px)
+{
+.container
+{
+  max-width: 650px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1f 1fr 1fr 1fr;
+}
+.leerling
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.mening
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.blokken
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.leraren
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.rooster
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.vakken
+{
+  grid-row: span 1;
+  grid-column: span 1;
   margin-bottom: 25px;
 }
 .loui
@@ -183,6 +250,161 @@ width: 450px;
 .vakken
 {
   width: 500px;
+}
+}
+@media (max-width: 750px)
+{
+.container
+{
+  max-width: 650px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1f 1fr 1fr 1fr;
+}
+}
+@media (max-width: 650px)
+{
+.container
+{
+  max-width: 650px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1f 1fr 1fr 1fr;
+}
+.loui
+{
+width: 300px;
+margin-top: 20px;
+margin-left: 27px;
+}
+.leerling
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.mening
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.blokken
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-left: 10px;
+}
+.leraren
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-left: 10px;
+}
+.rooster
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-left: 10px;
+}
+.vakken
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.opleidingsoverzicht
+{
+width: 300px;
+}
+.rooster
+{
+  width: 350px;
+}
+.vakanties
+{
+  width: 350px;
+}
+.leraren
+{
+  width: 350px;
+}
+.vakken
+{
+  width: 350px;
+}
+}
+@media (max-width: 400px)
+{
+.container
+{
+  max-width: 650px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1f 1fr 1fr 1fr;
+}
+.leerling
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.mening
+{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.blokken
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-left: 40px;
+}
+.leraren
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-left: 10px;
+}
+.rooster
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-left: 10px;
+}
+.vakken
+{
+  grid-row: span 1;
+  grid-column: span 1;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.loui
+{
+width: 275px;
+}
+.opleidingsoverzicht
+{
+width: 260px;
+}
+.rooster
+{
+  width: 275px;
+}
+.vakanties
+{
+  width: 275px;
+}
+.leraren
+{
+  width: 275px;
+}
+.vakken
+{
+  width: 275px;
+}
+}
 }
 /* ==========================================================================
    Helper classes
